@@ -40,6 +40,9 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "hello",
+    "generate_form",
+    'rest_hooks',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [

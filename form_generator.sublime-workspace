@@ -1,0 +1,914 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"H",
+				"HttpResponse"
+			],
+			[
+				"form",
+				"form_response"
+			],
+			[
+				"jason",
+				"jasonastxt"
+			],
+			[
+				"new",
+				"new_form"
+			],
+			[
+				"Form",
+				"FormSerializer"
+			],
+			[
+				"validated",
+				"validated_data"
+			],
+			[
+				"max",
+				"max_edges_index"
+			],
+			[
+				"adj",
+				"adjacency_list"
+			],
+			[
+				"adja",
+				"adjacency_matrix"
+			],
+			[
+				"print",
+				"print_stack"
+			],
+			[
+				"prin",
+				"print_stack"
+			],
+			[
+				"ad",
+				"adjacency_list"
+			],
+			[
+				"num",
+				"num_vertices"
+			],
+			[
+				"ma",
+				"max_edges_index"
+			],
+			[
+				"delete",
+				"delete_cost2"
+			],
+			[
+				"dele",
+				"delete_cost"
+			],
+			[
+				"avg",
+				"avg_delete_cost"
+			],
+			[
+				"to",
+				"to_string"
+			],
+			[
+				"total",
+				"total_delete_cost"
+			],
+			[
+				"del",
+				"delete_cost"
+			],
+			[
+				"n",
+				"n_nodes"
+			],
+			[
+				"delet",
+				"delete_obj"
+			],
+			[
+				"inser",
+				"insert_cost"
+			],
+			[
+				"node",
+				"node_comps"
+			],
+			[
+				"inserted",
+				"inserted_node"
+			],
+			[
+				"delte",
+				"vec_delete_nodes"
+			],
+			[
+				"vec",
+				"vec_delete_nodes"
+			],
+			[
+				"prev",
+				"prev_it"
+			],
+			[
+				"hei",
+				"height_and_iterator"
+			],
+			[
+				"curr",
+				"curr_height"
+			],
+			[
+				"nex",
+				"next_it"
+			],
+			[
+				"next",
+				"next_vec"
+			],
+			[
+				"insert",
+				"insert_height"
+			],
+			[
+				"prevm",
+				"prevmax"
+			],
+			[
+				"in",
+				"inserted_node"
+			],
+			[
+				"isner",
+				"insert_height"
+			],
+			[
+				"rando",
+				"random_bool"
+			],
+			[
+				"rad",
+				"random_bool"
+			],
+			[
+				"preorder",
+				"preorder"
+			],
+			[
+				"get",
+				"get_root"
+			],
+			[
+				"emp",
+				"empty"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"sear",
+				"search_cost"
+			],
+			[
+				"read",
+				"read_file"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"push",
+				"push_back"
+			],
+			[
+				"Node",
+				"Node"
+			],
+			[
+				"other",
+				"other_root"
+			],
+			[
+				"null",
+				"nullptr"
+			],
+			[
+				"pri",
+				"print_queue"
+			],
+			[
+				"sub",
+				"sub_account_num"
+			],
+			[
+				"accou",
+				"account_num"
+			],
+			[
+				"fon",
+				"font_type"
+			],
+			[
+				"api",
+				"api_url"
+			],
+			[
+				"apr",
+				"api_url_base"
+			],
+			[
+				"ThetaY",
+				"ThetaY"
+			],
+			[
+				"theta",
+				"ThetaX"
+			],
+			[
+				"g",
+				"g"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"Dou",
+				"DoublyLinkedListLength"
+			],
+			[
+				"ise",
+				"isempty"
+			],
+			[
+				"Emp",
+				"EmptyDLinkedListException"
+			],
+			[
+				"Doubl",
+				"DoublyLinkedListLength"
+			],
+			[
+				"empty",
+				"EmptyDLinkedListException"
+			],
+			[
+				"dou",
+				"DoublyLinkedList"
+			],
+			[
+				"this",
+				"thisHead"
+			],
+			[
+				"doubl",
+				"DoublyLinkedList"
+			],
+			[
+				"inse",
+				"insertAfter"
+			],
+			[
+				"r",
+				"runtime"
+			],
+			[
+				"inpu",
+				"input_type"
+			],
+			[
+				"y",
+				"y"
+			],
+			[
+				"inc",
+				"increasing"
+			],
+			[
+				"decre",
+				"decreasing"
+			],
+			[
+				"de",
+				"decreasing"
+			],
+			[
+				"out",
+				"out_of_range"
+			],
+			[
+				"numb",
+				"number_of_rows"
+			],
+			[
+				"numbe",
+				"number_of_columns"
+			],
+			[
+				"nu",
+				"number_of_rows"
+			],
+			[
+				"blin",
+				"blink_buffer"
+			],
+			[
+				"curre",
+				"current_time"
+			],
+			[
+				"blink",
+				"blink_test"
+			],
+			[
+				"cu",
+				"current_time"
+			],
+			[
+				"number",
+				"number_of_rows"
+			],
+			[
+				"row",
+				"rowamt"
+			],
+			[
+				"my",
+				"My_matrix"
+			],
+			[
+				"player",
+				"player_move"
+			],
+			[
+				"pos",
+				"Position"
+			],
+			[
+				"tiles",
+				"tilescopy"
+			],
+			[
+				"til",
+				"tilescopy"
+			],
+			[
+				"play",
+				"player_pos"
+			],
+			[
+				"tile",
+				"tile_char"
+			],
+			[
+				"RST",
+				"RstCount"
+			],
+			[
+				"ne",
+				"nextState"
+			],
+			[
+				"begi",
+				"begin"
+			],
+			[
+				"Rst",
+				"RstCount"
+			],
+			[
+				"D",
+				"D"
+			],
+			[
+				"new_",
+				"new_capacity"
+			],
+			[
+				"point1",
+				"point1y"
+			],
+			[
+				"checkif",
+				"check_if_ready_to_start_game"
+			],
+			[
+				"join",
+				"join_game"
+			],
+			[
+				"jon",
+				"join_game"
+			],
+			[
+				"ready",
+				"Ready"
+			],
+			[
+				"Player",
+				"Player_state"
+			],
+			[
+				"min",
+				"min_to_start"
+			],
+			[
+				"lobby",
+				"lobby_id"
+			],
+			[
+				"lobb",
+				"lobby_id"
+			],
+			[
+				"paly",
+				"player_id"
+			],
+			[
+				"B",
+				"B_reg"
+			],
+			[
+				"A",
+				"A_reg"
+			],
+			[
+				"copy",
+				"copy_with_whitespaces"
+			],
+			[
+				"notW",
+				"notW0"
+			],
+			[
+				"read_",
+				"read_names"
+			],
+			[
+				"age",
+				"ages"
+			],
+			[
+				"set",
+				"set_length"
+			],
+			[
+				"rectangle",
+				"Rectangle"
+			],
+			[
+				"dupli",
+				"duplicatecheck"
+			],
+			[
+				"Inval",
+				"Invalid_number_digits"
+			],
+			[
+				"swap",
+				"swap_v"
+			],
+			[
+				"vect",
+				"vect"
+			],
+			[
+				"sor",
+				"sort_r"
+			],
+			[
+				"sort",
+				"sort_v"
+			],
+			[
+				"swap_r",
+				"swap_r"
+			],
+			[
+				"b",
+				"b"
+			],
+			[
+				"double",
+				"double"
+			],
+			[
+				"long",
+				"longlongfibo"
+			],
+			[
+				"qu",
+				"quarters"
+			],
+			[
+				"one",
+				"oneDollar"
+			],
+			[
+				"half",
+				"halfDollar"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/evanyoung/Desktop/getherokuworking/python-getting-started/gettingstarted/settings.py",
+			"settings":
+			{
+				"buffer_size": 3642,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "gettingstarted/urls.py",
+			"settings":
+			{
+				"buffer_size": 530,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')",
+			"clear",
+			"import urllib2,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/evanyoung/Desktop/Django_Form_Generator/generate_form/admin.py",
+		"/Users/evanyoung/Desktop/Django_Form_Generator/requirements.txt",
+		"/Users/evanyoung/Desktop/Rest_Framework_Tutorial/api/music/admin.py",
+		"/Users/evanyoung/Desktop/Rest_Framework_Tutorial/manage.py",
+		"/Users/evanyoung/Desktop/djangotutorial/mysite/form_generator/serializers.py",
+		"/Users/evanyoung/Desktop/djangotutorial/mysite/snippets/serializers.py",
+		"/Users/evanyoung/Desktop/djangotutorial/mysite/form_generator/models.py",
+		"/Users/evanyoung/Desktop/djangotutorial/mysite/mysite/urls.py",
+		"/Users/evanyoung/Desktop/djangotutorial/mysite/form_generator/urls.py",
+		"/Users/evanyoung/Desktop/djangotutorial/mysite/form_generator/tests.py",
+		"/Users/evanyoung/Desktop/djangotutorial/mysite/form_generator/views.py",
+		"/Users/evanyoung/Desktop/djangotutorial/mysite/mysite/settings.py",
+		"/Users/evanyoung/Desktop/djangotutorial/mysite/polls/views.py",
+		"/Users/evanyoung/Desktop/djangotutorial/mysite/static/css/base.css",
+		"/Users/evanyoung/Desktop/djangotutorial/mysite/polls/urls.py",
+		"/Users/evanyoung/Desktop/djangotutorial/mysite/templates/home.html",
+		"/Users/evanyoung/Desktop/djangotutorial/mysite/templates/navbar.html",
+		"/Users/evanyoung/Desktop/djangotutorial/mysite/templates/base.html",
+		"/Users/evanyoung/Downloads/Review Test Submission_ Syllabus_Course Intro Quiz – ....html",
+		"/Users/evanyoung/Desktop/djangotutorial/mysite/manage.py",
+		"/Users/evanyoung/Desktop/djangotutorial/mysite/polls/static",
+		"/Users/evanyoung/Desktop/djangotutorial/mysite/mysite/templates/home.html",
+		"/Users/evanyoung/Desktop/djangotutorial/mysite/mysite/templates",
+		"/Users/evanyoung/Desktop/getherokuworking/python-getting-started/gettingstarted/templates/base.html",
+		"/Users/evanyoung/Desktop/getherokuworking/python-getting-started/templates/home.html",
+		"/Users/evanyoung/Desktop/getherokuworking/python-getting-started/gettingstarted/settings.py",
+		"/Users/evanyoung/Desktop/getherokuworking/python-getting-started/hello/views.py",
+		"/Users/evanyoung/Desktop/getherokuworking/python-getting-started/hello/admin.py",
+		"/Users/evanyoung/Desktop/getherokuworking/python-getting-started/hello/models.py",
+		"/Users/evanyoung/Desktop/getherokuworking/python-getting-started/README.md",
+		"/Users/evanyoung/Desktop/annotatedoc/fillableform.py",
+		"/Users/evanyoung/Desktop/annotatedoc/annotateimage.py",
+		"/Users/evanyoung/Desktop/annotatedoc/spreadsheet.py",
+		"/Users/evanyoung/Desktop/getherokuworking/python-getting-started/manage.py",
+		"/Users/evanyoung/Desktop/getherokuworking/python-getting-started/hello/templates/base.html",
+		"/Users/evanyoung/Desktop/getherokuworking/python-getting-started/hello/templates/index.html",
+		"/Users/evanyoung/Desktop/getherokuworking/python-getting-started/requirements.txt",
+		"/Users/evanyoung/Desktop/getherokuworking/python-getting-started/Procfile",
+		"/Users/evanyoung/Downloads/buttons.py",
+		"/Users/evanyoung/Desktop/221/assign6/adjacency_matrix.cpp",
+		"/Users/evanyoung/Desktop/221/assign6/pa6.cpp",
+		"/Users/evanyoung/Desktop/221/assign6/other.cpp",
+		"/Users/evanyoung/Desktop/Computervision Python /github/Research/3dplot/move_point.py",
+		"/Users/evanyoung/Desktop/Computervision Python /github/Research/3dplot/sampl2.py",
+		"/Users/evanyoung/Desktop/Computervision Python /github/Research/3dplot/rotate.py",
+		"/Users/evanyoung/Desktop/221/hoemwork3/sample.py",
+		"/Users/evanyoung/Desktop/ECEN 214/graph.py",
+		"/Users/evanyoung/Desktop/221/Young_Evan_PA5_226007544/Phase1/pa5.cpp",
+		"/Users/evanyoung/Desktop/221/Young_Evan_PA5_226007544/Phase1/main.cpp",
+		"/Users/evanyoung/Desktop/221/assign6/graph1.data",
+		"/Users/evanyoung/Desktop/221/assign5/main.cpp",
+		"/Users/evanyoung/Desktop/Computervision Python /3dplot/readme.txt",
+		"/Users/evanyoung/Desktop/Computervision Python /3dplot/sampl2.py",
+		"/Users/evanyoung/Desktop/Computervision Python /3dplot/sampl2[sashreek].py",
+		"/Users/evanyoung/Desktop/Computervision Python /3dplot/sampl3.py",
+		"/Users/evanyoung/Desktop/ECEN 214/values.py",
+		"/Users/evanyoung/Desktop/221/assign5/pa5.cpp",
+		"/Users/evanyoung/Desktop/221/assign5/DoublyLinkedList.cpp",
+		"/Users/evanyoung/Desktop/221/assign5/sample.txt",
+		"/Users/evanyoung/Desktop/221/assign5/1p",
+		"/Users/evanyoung/Desktop/TestCode/main.cpp",
+		"/Users/evanyoung/Desktop/untitled folder/Young_Evan_PA4_226007544/Phase 1 /BTree.cpp",
+		"/Users/evanyoung/Desktop/untitled folder/Young_Evan_PA4_226007544/Phase 1 /main.cpp",
+		"/Users/evanyoung/Desktop/221/assign5/DoublyLinkedList.h",
+		"/Users/evanyoung/Desktop/untitled folder/Young_Evan_PA4_226007544/Phase 1 /BTree.h",
+		"/Users/evanyoung/Desktop/221/assign4/BTree-header/BTree.cpp",
+		"/Users/evanyoung/Desktop/221/assign4/readme.txt",
+		"/Users/evanyoung/Desktop/221/assign4/BTree-header/main.cpp",
+		"/Users/evanyoung/Desktop/Create Graphs /creatgraphs.py",
+		"/Users/evanyoung/Desktop/221/assign4/BTree-header/BTree.h",
+		"/Users/evanyoung/Desktop/221/assign4/BTree-header/4rc.txt",
+		"/Users/evanyoung/Desktop/221/assign4/BTree-header/1lc.txt",
+		"/Users/evanyoung/Desktop/Computervision Python /Rotate/rotate.m",
+		"/Users/evanyoung/Desktop/Computervision Python /Rotate/rotate.py",
+		"/Users/evanyoung/Desktop/221/homework2/queue1.cpp",
+		"/Users/evanyoung/Desktop/221/homework2/hoemwork2answers",
+		"/Users/evanyoung/Desktop/221/homework2/max_array.cpp",
+		"/Users/evanyoung/Desktop/221/homework2/queue.cpp",
+		"/Users/evanyoung/Desktop/221/homework2/stack.cpp",
+		"/Users/evanyoung/Desktop/221/homework2/homework2.cpp",
+		"/Users/evanyoung/Desktop/Computervision Python /renameimages.py",
+		"/Users/evanyoung/Desktop/Computervision Python /3dplot/3dplot.py",
+		"/Users/evanyoung/Desktop/221/Young_Evan_PA3_226007544/Phase 1 /SinglyLinkedList/DoublyLinkedList.h",
+		"/Users/evanyoung/Desktop/221/Young_Evan_PA3_226007544/Phase 1 /SinglyLinkedList/Main.cpp",
+		"/Users/evanyoung/Desktop/221/Young_Evan_PA3_226007544/Phase 1 /SinglyLinkedList/DoublyLinkedList.cpp",
+		"/Users/evanyoung/Desktop/221/Young_Evan_PA3_226007544/Phase 1 /SinglyLinkedList/DoublyLinkedList.",
+		"/Users/evanyoung/Desktop/221/ICA/testreview.cpp",
+		"/Users/evanyoung/Desktop/221/assign1/My_matrix.cpp",
+		"/Users/evanyoung/Desktop/221/assign1/My_matrix.h",
+		"/Users/evanyoung/Desktop/221/assign4/BTree-header/resources",
+		"/Users/evanyoung/Library/Application Support/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/Users/evanyoung/Desktop/react_website/repoStarterKit/package.json",
+		"/Users/evanyoung/Desktop/react_website/repoStarterKit/react-client/src/index.js",
+		"/Users/evanyoung/Desktop/apis/do_get_account.py",
+		"/Users/evanyoung/Desktop/react_website_project/.gitignore",
+		"/Users/evanyoung/Desktop/react_website/repoStarterKit/package",
+		"/Users/evanyoung/Desktop/django_test/mysite/mysite/urls.py",
+		"/Users/evanyoung/Desktop/django_test/mysite/polls/urls.py",
+		"/Users/evanyoung/Desktop/django_test/mysite/polls/views.py",
+		"/Users/evanyoung/Desktop/django_test/mysite/Readme.rtf",
+		"/Users/evanyoung/Desktop/annotatedoc/getpixel.py",
+		"/Users/evanyoung/Desktop/annotatedoc/pdf-redactor/example.py",
+		"/Users/evanyoung/Desktop/221/ICA/main.cpp",
+		"/Users/evanyoung/Desktop/221/Young_Evan_PA3_226007544 2/Phase 2 /MinQueue/Main.cpp",
+		"/Users/evanyoung/Desktop/221/Young_Evan_PA3_226007544 2/Phase 2 /MinQueue/MinQueue.h",
+		"/Users/evanyoung/Desktop/221/assign3/MinQueue/MinQueue.h",
+		"/Users/evanyoung/Desktop/221/assign3/DoublyLinkedList/Main.cpp",
+		"/Users/evanyoung/Desktop/221/assign3/MinQueue/Main.cpp",
+		"/Users/evanyoung/Desktop/221/assign3/DoublyLinkedList/DoublyLinkedList.cpp",
+		"/Users/evanyoung/Desktop/221/assign3/TemplateMain/TemplateMain.cpp",
+		"/Users/evanyoung/Desktop/221/assign3/TemplateMain/TemplateDoublyLinkedList.h",
+		"/Users/evanyoung/Desktop/221/assign3/MinQueue/TemplateDoublyLinkedList.h",
+		"/Users/evanyoung/Desktop/221/assign3/MinQueue/Makefile",
+		"/Users/evanyoung/Desktop/221/assign3/MinQueue/MinQueue.cpp",
+		"/Users/evanyoung/Desktop/221/assign1/templated_class/TemplatedMy_matrix.h",
+		"/Users/evanyoung/Desktop/221/assign3/MinQueue/DoublyLinkedList.h",
+		"/Users/evanyoung/Desktop/221/assign3/MinQueue/DoublyLinkedList.cpp",
+		"/Users/evanyoung/Desktop/221/assign3/DoublyLinkedList/DoublyLinkedList.h",
+		"/Users/evanyoung/Desktop/Computervision Python /3dplot/annotation.py",
+		"/Users/evanyoung/Desktop/221/assign2/Create Graphs /creatgraphs.py",
+		"/Users/evanyoung/Desktop/221/assign1/templated_class/Makefile",
+		"/Users/evanyoung/Desktop/221/assign3/DoublyLinkedList/Makefile",
+		"/Users/evanyoung/Desktop/221/assign3/TemplateDoublyLinkedList/TemplateDoublyLinkedList.h",
+		"/Users/evanyoung/Desktop/221/assign3/TemplateDoublyLinkedList/Makefile",
+		"/Users/evanyoung/Desktop/Computervision Python /3dplot/clicktest.py",
+		"/Users/evanyoung/Desktop/221/assign1/main.cpp",
+		"/Users/evanyoung/Desktop/221/assign1/templated_class/main.cpp",
+		"/Users/evanyoung/Desktop/221/assign1/templated_class/My_matrix.h"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/evanyoung/Desktop/getherokuworking/python-getting-started/gettingstarted/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3642,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "gettingstarted/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 530,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								529,
+								529
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "form_generator.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Desktop/221/assign5/DoublyLinkedList.cpp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 184.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
