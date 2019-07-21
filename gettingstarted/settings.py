@@ -73,6 +73,9 @@ TEMPLATES = [
     }
 ]
 
+HOOK_EVENTS = {
+    
+}
 WSGI_APPLICATION = "gettingstarted.wsgi.application"
 
 
