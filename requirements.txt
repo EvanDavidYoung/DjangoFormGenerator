@@ -5,3 +5,4 @@ requests
 django-rest-hooks
 django-rest-framework
 pypdftk
+python-dotenv
