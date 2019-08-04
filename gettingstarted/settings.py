@@ -47,7 +47,8 @@ INSTALLED_APPS = [
     "hello",
     "generate_form",
     'rest_hooks',
-    'rest_framework'
+    'rest_framework',
+    'gettingstarted',
 ]
 
 MIDDLEWARE = [
@@ -81,6 +82,7 @@ TEMPLATES = [
 ]
 
 HOOK_EVENTS = {
+    'form_model.added':     'formlist.form_model.created'
     
     
 }

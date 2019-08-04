@@ -18,7 +18,7 @@ class FormSerializer(serializers.ModelSerializer):
 
 	class Meta: 
 		model = Form_Model
-		fields = {'id', 'title', 'created'}
+		fields = '__all__' 
 	def create(self, validated_data):
 		"""
 		Create and return a new `Snippet` instance, given the validated data.
