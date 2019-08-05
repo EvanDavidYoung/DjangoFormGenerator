@@ -1,4 +1,5 @@
 from django.db import models
+import jsonfield
 # from django.utils import timezone
 
 # from django_hstore import hstore
@@ -9,12 +10,25 @@ class Form_Model(models.Model):
 	# user data 
     created = models.DateTimeField(auto_now_add=True)
     student_org = models.CharField(blank=True, default='', max_length=100)
-    date = models.DateField()
+    date = models.DateField(blank=True)
     account_num = models.BigIntegerField()
     sub_account_num = models.BigIntegerField()
     dollar_amount = models.BigIntegerField()
     class Meta: 
         ordering = ('created', )
+
+
+
+
+class Form_Model2(models.Model):
+    # user data 
+    created = models.DateTimeField(auto_now_add=True)
+    event_id = models.CharField(blank=True, default='', max_length=100)
+    event_type = models.CharField(blank=True, default='', max_length=100)
+    form_response = jsonfield.JSONField()
+    class Meta: 
+        ordering = ('created', )
+
 # class WebhookTransaction(models.Model):
 #     UNPROCESSED = 1
 #     PROCESSED = 2

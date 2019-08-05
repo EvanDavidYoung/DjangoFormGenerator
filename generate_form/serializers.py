@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from generate_form.models import Form_Model
+from generate_form.models import Form_Model, Form_Model2
 import io 
 from rest_framework.parsers import JSONParser
 import json
@@ -17,13 +17,11 @@ import json
 class FormSerializer(serializers.ModelSerializer):
 
 	class Meta: 
-		model = Form_Model
+		model = Form_Model2
 		fields = '__all__' 
 	def create(self, validated_data):
-		"""
-		Create and return a new `Snippet` instance, given the validated data.
-		"""
-		return Form_Model.objects.create(**validated_data)
+		
+		return Form_Model2.objects.create(**validated_data)
     # def update(self, instance, validated_data):
     #     """
     #     Update and return an existing `Snippet` instance, given the validated data.
