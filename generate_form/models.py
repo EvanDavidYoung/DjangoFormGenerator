@@ -1,5 +1,5 @@
 from django.db import models
-import jsonfield
+from jsonfield import JSONField
 # from django.utils import timezone
 
 # from django_hstore import hstore
@@ -13,7 +13,7 @@ class Form_Model(models.Model):
     created = models.DateTimeField(auto_now_add=True)
     event_id = models.CharField(blank=True, default='', max_length=100)
     event_type = models.CharField(blank=True, default='', max_length=100)
-    form_response = jsonfield.JSONField()
+    form_response = JSONField()
     class Meta: 
         ordering = ('created', )
 
