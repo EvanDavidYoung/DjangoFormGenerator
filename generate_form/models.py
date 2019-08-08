@@ -10,12 +10,12 @@ from jsonfield import JSONField
 
 class Form_Model(models.Model):
     # user data 
-    created = models.DateTimeField(auto_now_add=True)
-    event_id = models.CharField(blank=True, default='', max_length=100)
-    event_type = models.CharField(blank=True, default='', max_length=100)
-    form_response = models.CharField(blank=True, default='',max_length=1000000)
-    class Meta: 
-        ordering = ('created', )
+    # created = models.DateTimeField(auto_now_add=True)
+    # event_id = models.CharField(blank=True, default='', max_length=100)
+    # event_type = models.CharField(blank=True, default='', max_length=100)
+    form_response = JSONField()
+    # class Meta: 
+        # ordering = ('form_response', )
 
 # class WebhookTransaction(models.Model):
 #     UNPROCESSED = 1

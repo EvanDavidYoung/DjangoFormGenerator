@@ -16,8 +16,8 @@ def generate_form(datas):
 # datas['Account Number'] = 123456
 # datas['SubAccount']		= 123456
 # datas['Amount'] 		= 123
-# # datas['Date'] 			= date
-# # datas['Org Name'] 		= org 
+# datas['Date'] 			= date
+# datas['Org Name'] 		= org 
 # generate_form(datas)
 
 
