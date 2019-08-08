@@ -21,30 +21,30 @@ class FormSerializer(serializers.ModelSerializer):
 		model = Form_Model
 		fields = '__all__' 
 	def create(self, validated_data):
-		# d = json.loads(validated_data['form_response'])
-		# print('answers')
-		# answers = d['answers']
-		# for elem in answers:
-		# 	print(elem)
+		d = validated_data
+		print('answers')
+		answers = d['answers']
+		for elem in answers:
+			print(elem)
 
 		# should refactor 
-		# org = answers[0]['choice']['label']
-		# date = answers[1]['date']
-		# account_num = answers[2]['number']
-		# sub_account_num = answers[3]['number']
-		# # change variable name
-		# reason = answers[4]['choice']['label']
-		# dollar_amount = answers[5]['number']
-		# email = answers[6]['text']
+		org = answers[0]['choice']['label']
+		date = answers[1]['date']
+		account_num = answers[2]['number']
+		sub_account_num = answers[3]['number']
+		# change variable name
+		reason = answers[4]['choice']['label']
+		dollar_amount = answers[5]['number']
+		email = answers[6]['text']
 
-		# datas = dict()
-		# datas['Account Number'] = account_num
-		# datas['SubAccount']		= sub_account_num
-		# datas['Amount'] 		= dollar_amount
-		# datas['Date'] 			= date.replace('-','')
-		# datas['Org Name'] 		= org 
-		# print(datas)
-		# generate.generate_form(datas)
+		datas = dict()
+		datas['Account Number'] = account_num
+		datas['SubAccount']		= sub_account_num
+		datas['Amount'] 		= dollar_amount
+		datas['Date'] 			= date.replace('-','')
+		datas['Org Name'] 		= org 
+		print(datas)
+		generate.generate_form(datas)
 
 		return Form_Model.objects.create(**validated_data)
     # def update(self, instance, validated_data):
