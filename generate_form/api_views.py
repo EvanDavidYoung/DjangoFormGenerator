@@ -1,11 +1,11 @@
 from rest_framework.generics import ListAPIView, CreateAPIView
 from rest_framework.exceptions import ValidationError
 from generate_form.serializers import FormSerializer
-from generate_form.models import Form_Model, Form_Model2
+from generate_form.models import Form_Model
 
 
 class FormList(ListAPIView):
-	queryset = Form_Model2.objects.all()
+	queryset = Form_Model.objects.all()
 	serializer_class = FormSerializer
 
 

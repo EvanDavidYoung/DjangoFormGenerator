@@ -1,8 +1,9 @@
 from rest_framework import serializers
-from generate_form.models import Form_Model, Form_Model2
+from generate_form.models import Form_Model
 import io 
 from rest_framework.parsers import JSONParser
 import json
+import generate_form.fillableform as generate
     # Probably need to put this code in another file 
     # def serialize_hook(self, hook):
     #     # optional, there are serialization defaults
@@ -17,11 +18,35 @@ import json
 class FormSerializer(serializers.ModelSerializer):
 
 	class Meta: 
-		model = Form_Model2
+		model = Form_Model
 		fields = '__all__' 
 	def create(self, validated_data):
-		
-		return Form_Model2.objects.create(**validated_data)
+		d = json.loads(validated_data['form_response'])
+		print('answers')
+		answers = d['answers']
+		# for elem in answers:
+		# 	print(elem)
+
+		# should refactor 
+		org = answers[0]['choice']['label']
+		date = answers[1]['date']
+		account_num = answers[2]['number']
+		sub_account_num = answers[3]['number']
+		# change variable name
+		reason = answers[4]['choice']['label']
+		dollar_amount = answers[5]['number']
+		email = answers[6]['text']
+
+		datas = dict()
+		datas['Account Number'] = account_num
+		datas['SubAccount']		= sub_account_num
+		datas['Amount'] 		= dollar_amount
+		datas['Date'] 			= date.replace('-','')
+		datas['Org Name'] 		= org 
+		print(datas)
+		generate.generate_form(datas)
+
+		return Form_Model.objects.create(**validated_data)
     # def update(self, instance, validated_data):
     #     """
     #     Update and return an existing `Snippet` instance, given the validated data.

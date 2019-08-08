@@ -6,21 +6,9 @@ import jsonfield
 
 
 
+
+
 class Form_Model(models.Model):
-	# user data 
-    created = models.DateTimeField(auto_now_add=True)
-    student_org = models.CharField(blank=True, default='', max_length=100)
-    date = models.DateField(blank=True)
-    account_num = models.BigIntegerField()
-    sub_account_num = models.BigIntegerField()
-    dollar_amount = models.BigIntegerField()
-    class Meta: 
-        ordering = ('created', )
-
-
-
-
-class Form_Model2(models.Model):
     # user data 
     created = models.DateTimeField(auto_now_add=True)
     event_id = models.CharField(blank=True, default='', max_length=100)
