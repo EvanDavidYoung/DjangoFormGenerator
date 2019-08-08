@@ -21,11 +21,11 @@ class FormSerializer(serializers.ModelSerializer):
 		model = Form_Model
 		fields = '__all__' 
 	def create(self, validated_data):
-		d = validated_data
-		answers = d['answers']
-		for elem in answers:
-			print(elem)
+		d = validated_data['form_response']
+		d = json.loads(d)
 
+		answers = d['form_response']['answers']
+		print(answers)
 		# should refactor 
 		org = answers[0]['choice']['label']
 		date = answers[1]['date']
