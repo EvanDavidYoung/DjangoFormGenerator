@@ -22,7 +22,6 @@ class FormSerializer(serializers.ModelSerializer):
 		fields = '__all__' 
 	def create(self, validated_data):
 		d = validated_data
-		print('answers')
 		answers = d['answers']
 		for elem in answers:
 			print(elem)
