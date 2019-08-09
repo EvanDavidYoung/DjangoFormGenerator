@@ -4,6 +4,7 @@ import io
 from rest_framework.parsers import JSONParser
 import json
 import generate_form.fillableform as generate
+import mailing
     # Probably need to put this code in another file 
     # def serialize_hook(self, hook):
     #     # optional, there are serialization defaults
@@ -33,7 +34,9 @@ class FormSerializer(serializers.ModelSerializer):
 		datas['Org Name'] 		= answers[0]['choice']['label'] 
 		datas['Reason'] 		= answers[4]['choice']['label']
 		datas['Email']			= answers[6]['text']
-		generate.generate_form(datas)
+
+		generatedFilePath = generate.generate_form(datas)
+		mailing.sendEmail(datas['Email'] , generatedFilePath)
 
 		return Form_Model.objects.create(**validated_data)
     # def update(self, instance, validated_data):
