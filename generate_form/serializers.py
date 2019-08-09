@@ -34,7 +34,7 @@ class FormSerializer(serializers.ModelSerializer):
 		datas['Org Name'] 		= answers[0]['choice']['label'] 
 		datas['Reason'] 		= answers[4]['choice']['label']
 		datas['Email']			= answers[6]['text']
-		print(datas['email'])
+		print(datas['Email'])
 		generatedFilePath = generate.generate_form(datas)
 		mailing.sendEmail(datas['Email'] , generatedFilePath)
 
