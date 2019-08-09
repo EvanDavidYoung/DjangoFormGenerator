@@ -35,14 +35,14 @@ class FormSerializer(serializers.ModelSerializer):
 		dollar_amount = answers[5]['number']
 		email = answers[6]['text']
 
-		# datas = dict()
-		# datas['Account Number'] = account_num
-		# datas['SubAccount']		= sub_account_num
-		# datas['Amount'] 		= dollar_amount
-		# datas['Date'] 			= date.replace('-','')
-		# datas['Org Name'] 		= org 
-		# print(datas)
-		# generate.generate_form(datas)
+		datas = dict()
+		datas['Account Number'] = account_num
+		datas['SubAccount']		= sub_account_num
+		datas['Amount'] 		= dollar_amount
+		datas['Date'] 			= date.replace('-','')
+		datas['Org Name'] 		= org 
+		print(datas)
+		generate.generate_form(datas)
 
 		return Form_Model.objects.create(**validated_data)
     # def update(self, instance, validated_data):
