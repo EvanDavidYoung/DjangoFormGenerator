@@ -59,7 +59,7 @@ def sendEmail(recipient , pathToAttachment):
 	  
 	# sending the mail 
 	s.sendmail(fromaddr, toaddr, text) 
-	  
+	print("email should have been sent")
 	# terminating the session 
 	s.quit() 
 
