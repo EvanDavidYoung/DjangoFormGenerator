@@ -36,7 +36,7 @@ class FormSerializer(serializers.ModelSerializer):
 		datas['Email']			= answers[6]['text']
 		print(datas['Email'])
 		generatedFilePath = generate.generate_form(datas)
-		mailing.sendEmail(datas['Email'] , generatedFilePath)
+		mail.sendEmail(datas['Email'] , generatedFilePath)
 
 		return Form_Model.objects.create(**validated_data)
     # def update(self, instance, validated_data):
