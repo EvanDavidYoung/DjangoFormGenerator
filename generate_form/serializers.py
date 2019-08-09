@@ -33,7 +33,7 @@ class FormSerializer(serializers.ModelSerializer):
 		datas['Email']			= answers[6]['text']
 	def create(self, validated_data):
 		
-		datas	= this.getDataFromJSON(validated_data)		
+		datas	= self.getDataFromJSON(validated_data)		
 		generate.generate_form(datas)
 
 		return Form_Model.objects.create(**validated_data)
