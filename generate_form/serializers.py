@@ -20,28 +20,20 @@ class FormSerializer(serializers.ModelSerializer):
 	class Meta: 
 		model = Form_Model
 		fields = '__all__' 
-	def create(self, validated_data):
-		d = validated_data
 
-		answers = d['form_response']['answers']
-		print(answers)
-		# should refactor 
-		org = answers[0]['choice']['label']
-		date = answers[1]['date']
-		account_num = answers[2]['number']
-		sub_account_num = answers[3]['number']
-		# change variable name
-		reason = answers[4]['choice']['label']
-		dollar_amount = answers[5]['number']
-		email = answers[6]['text']
-
+	def getDataFromJSON(jsonDict):
+		answers = jsonDict['form_response']['answers']						
 		datas = dict()
-		datas['Account Number'] = account_num
-		datas['SubAccount']		= sub_account_num
-		datas['Amount'] 		= dollar_amount
-		datas['Date'] 			= date.replace('-','')
-		datas['Org Name'] 		= org 
-		print(datas)
+		datas['Account Number'] = answers[2]['number']
+		datas['SubAccount']		= answers[3]['number']
+		datas['Amount'] 		= answers[5]['number']
+		datas['Date'] 			= answers[1]['date'].replace('-','')
+		datas['Org Name'] 		= answers[0]['choice']['label'] 
+		datas['Reason'] 		= answers[4]['choice']['label']
+		datas['Email']			= answers[6]['text']
+	def create(self, validated_data):
+		
+		datas	= getDataFromJSON(validated_data)		
 		generate.generate_form(datas)
 
 		return Form_Model.objects.create(**validated_data)
