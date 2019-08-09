@@ -21,8 +21,10 @@ class FormSerializer(serializers.ModelSerializer):
 		model = Form_Model
 		fields = '__all__' 
 
-	def getDataFromJSON(jsonDict):
-		answers = jsonDict['form_response']['answers']						
+
+	def create(self, validated_data):
+
+		answers = validated_data['form_response']['answers']						
 		datas = dict()
 		datas['Account Number'] = answers[2]['number']
 		datas['SubAccount']		= answers[3]['number']
@@ -31,9 +33,6 @@ class FormSerializer(serializers.ModelSerializer):
 		datas['Org Name'] 		= answers[0]['choice']['label'] 
 		datas['Reason'] 		= answers[4]['choice']['label']
 		datas['Email']			= answers[6]['text']
-	def create(self, validated_data):
-		
-		datas	= self.getDataFromJSON(validated_data)		
 		generate.generate_form(datas)
 
 		return Form_Model.objects.create(**validated_data)
