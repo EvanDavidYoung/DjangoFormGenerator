@@ -4,7 +4,7 @@ import io
 from rest_framework.parsers import JSONParser
 import json
 import generate_form.fillableform as generate
-import generate_form.mailing
+import generate_form.mailing as mail
     # Probably need to put this code in another file 
     # def serialize_hook(self, hook):
     #     # optional, there are serialization defaults
