@@ -21,20 +21,19 @@ class FormSerializer(serializers.ModelSerializer):
 		model = Form_Model
 		fields = '__all__' 
 	def create(self, validated_data):
-		# d = validated_data['form_response']
-		# d = json.loads(d)
+		d = validated_data
 
-		# answers = d['form_response']['answers']
-		# print(answers)
-		# # should refactor 
-		# org = answers[0]['choice']['label']
-		# date = answers[1]['date']
-		# account_num = answers[2]['number']
-		# sub_account_num = answers[3]['number']
-		# # change variable name
-		# reason = answers[4]['choice']['label']
-		# dollar_amount = answers[5]['number']
-		# email = answers[6]['text']
+		answers = d['form_response']['answers']
+		print(answers)
+		# should refactor 
+		org = answers[0]['choice']['label']
+		date = answers[1]['date']
+		account_num = answers[2]['number']
+		sub_account_num = answers[3]['number']
+		# change variable name
+		reason = answers[4]['choice']['label']
+		dollar_amount = answers[5]['number']
+		email = answers[6]['text']
 
 		# datas = dict()
 		# datas['Account Number'] = account_num
